@@ -1,10 +1,8 @@
 import streamlit as st
-from rdkit import Chem
-from rdkit.Chem import Descriptors, AllChem
-import py3Dmol
-from stmol import showmol
 import urllib.request
 import ssl
+import py3Dmol
+from stmol import showmol
 
 st.title("In Silico Drug Tester")
 st.write("Analyze small molecules for bioavailability and visualize 3D structures.")
